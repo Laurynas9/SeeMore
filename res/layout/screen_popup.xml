@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/popup_element"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#bfbfbf">
+<LinearLayout
+    android:id="@+id/linear"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/City"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_marginTop="15sp" />
+<TextView
+    android:id="@+id/txtView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15sp" />
+<ImageView
+    android:id="@+id/imageView"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" />
+    <TextView
+    android:id="@+id/taxi"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    />
+    <TextView
+        android:id="@+id/weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/restaurant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+
+        android:textSize="20dp"
+        android:layout_marginTop="15sp"
+        android:id="@+id/eventsMain"
+        android:text="Upcoming events:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <ImageView
+        android:layout_marginTop="15sp"
+        android:id="@+id/eventsImage0"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/events0"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/events0Time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+    <ImageView
+        android:layout_marginTop="15sp"
+        android:id="@+id/eventsImage1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/events1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/events1Time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+    <ImageView
+        android:layout_marginTop="15sp"
+        android:id="@+id/eventsImage2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/events2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+
+        android:id="@+id/events2Time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>
+</ScrollView>

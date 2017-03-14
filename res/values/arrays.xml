@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="beginning">
+        <item>Journey beginning</item>
+        <item>London St Pancras</item>
+        <item>Stevenage</item>
+        <item>Peterborough</item>
+        <item>Grantham</item>
+        <item>Newark</item>
+        <item>Retford</item>
+        <item>Doncaster</item>
+        <item>York</item>
+    </string-array>
+
+    <string-array name="ending">
+        <item>Journey end</item>
+        <item>London St Pancras</item>
+        <item>Stevenage</item>
+        <item>Peterborough</item>
+        <item>Grantham</item>
+        <item>Newark</item>
+        <item>Retford</item>
+        <item>Doncaster</item>
+        <item>York</item>
+    </string-array>
+    <string-array name="left">
+        <item>text1left</item>
+        <item>text2left</item>
+        <item>text3left</item>
+        <item>text4left</item>
+        <item>text5left</item>
+        <item>text6left</item>
+        <item>text7left</item>
+        <item>text8left</item>
+    </string-array>
+    <string-array name="right">
+        <item>text1right</item>
+        <item>text2right</item>
+        <item>text3right</item>
+        <item>text4right</item>
+        <item>text5right</item>
+        <item>text6right</item>
+        <item>text7right</item>
+        <item>text8right</item>
+    </string-array>
+    <string-array name="bubble">
+    <item>bubble1</item>
+    <item>bubble2</item>
+    <item>bubble3</item>
+    <item>bubble4</item>
+    <item>bubble5</item>
+    <item>bubble6</item>
+    <item>bubble7</item>
+    <item>bubble8</item>
+</string-array>
+    <string-array name="information">
+        <item>London St Pancras</item>//name
+        <item>-0.1254</item>//longitude
+        <item>51.5303</item>//latitude
+        <item></item>//information
+        <item></item>//taxi
+        <item></item>//restaurant
+        <item>Stevenage</item>//name
+        <item>-0.2077</item>//longitude
+        <item>51.9025</item>//latitude
+        <item></item>//information
+        <item></item>//taxi
+        <item></item>//restaurant
+        <item>Peterborough</item>//name
+        <item>-0.2499</item>//longitude
+        <item>52.5745</item>//latitude
+        <item>Hey, look out of the window - there is Peterborough! It is a cathedral and market city on the River Nene.</item>//information
+        <item>01733 704444</item>//taxi
+        <item>"Taj Mahal" restaurant</item>//restaurant
+        <item>Grantham</item>//name
+        <item>-0.6430</item>//longitude
+        <item>52.9065</item>//latitude
+        <item></item>//information
+        <item>01476594594</item>//taxi
+        <item>Siam Garden</item>//restaurant
+        <item>Newark</item>//name
+        <item>-0.8000</item>//longitude
+        <item>53.0820</item>//latitude
+        <item></item>//information
+        <item></item>//taxi
+        <item></item>//restaurant
+        <item>Retford</item>//name
+        <item>-0.9482</item>//longitude
+        <item>53.3151</item>//latitude
+        <item></item>//information
+        <item>01777 700777</item>//taxi
+        <item>"The Filling Station Smokehouse" Restaurant</item>//restaurant
+        <item>Doncaster</item>//name
+        <item>-1.1394</item>//longitude
+        <item>53.5224</item>//latitude
+        <item></item>//information
+        <item></item>//taxi
+        <item></item>//restaurant
+        <item>York</item>//name
+        <item>-1.0920</item>//longitude
+        <item>53.9584</item>//latitude
+        <item>York is a walled city in northeast England that was founded by the ancient Romans</item>//information
+        <item>01904638833</item>//taxi
+        <item>"Rustique" restaurant</item>//restaurant
+    </string-array>
+</resources>

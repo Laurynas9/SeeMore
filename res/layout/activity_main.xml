@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.seemore.MainActivity"
+    android:background="@drawable/untitled3">
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let&apos;s Go!"
+        android:id="@+id/go"
+        android:layout_marginBottom="149dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/beginning"
+        android:id="@+id/begintrip"
+        android:layout_above="@+id/go"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="110dp"
+        android:spinnerMode="dropdown" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/ending"
+        android:id="@+id/endtrip"
+        android:layout_above="@+id/go"
+        android:layout_marginBottom="40dp"
+        android:layout_centerHorizontal="true"
+        android:spinnerMode="dropdown" />
+</RelativeLayout>
